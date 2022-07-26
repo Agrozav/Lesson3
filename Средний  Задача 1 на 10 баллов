@@ -1,0 +1,12 @@
+# Asq a birth year from user
+birthyear = input('Enter your year of birth ')
+if birthyear.isalpha():
+    print('Enter your year by the numbers ')
+    birthyear = input('Enter your year of birth agane ')
+    elif birthyear.isalnum():
+        if 2022 - birthyear == 21:
+            print('You should visit Holand')
+        elif 2022 - birthyear >= 22:
+            print('You should visit Vietnam.')
+        else:
+            print('Travel everywhere')
