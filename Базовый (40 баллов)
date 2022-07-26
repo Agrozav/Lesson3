@@ -1,0 +1,87 @@
+# 1. Создать файл (модуль) с примерами всех способов сроков.
+dir('Python developer') # call all metods
+
+print(dir('Python developer')) # display all metods
+
+# 2. Создать по 3 варианта всех уже изученных объектов в Пайтоне
+
+     # a) сроки.
+x:str = 'Hi, my name is Alex'
+y:str = "I'm studying a Python language"
+z:str = 'I want to be a good developer'
+print(x)
+print(z)
+print(y)
+
+     # b) числа(с плавающей точкой, целочисленные)
+a:int = 3
+b:int = 16
+c:float = 18,75
+print('Hi, I have to learn',b,'lessons, now I am learning the',a,'rd lesson, this is',c,'% of all course')
+
+    # c) Списки
+x:list = [1,2,3,4,5]
+y:str = ['a','b','c','d','e']
+z:str = [1,'R',' ']
+print(x)
+print(y)
+print(z)
+
+    # d) Словари
+f = {'dictionar_1':1, 'dictionar_2':2}
+print(f)
+
+    # e) Кортежи
+a = (1,2,3,4,5,6)
+b = [1,2,3,4,5,6]
+print(a.__sizeof__())
+print(b.__sizeof__())    # But about tuple, I'm understanding nothing
+
+# 3. Написать 3 примера использования max(), min()
+     #это задания, не понял
+
+# 4. Изучить какие не изменяемые объекты, а какие изменяемые.
+    # Кортежи не изменяемые, и  списки изменяемые
+
+# 5. Написать 3 примера разных с оператором in
+
+# First model
+cars = ['Mercedes','Audi','BMW','Opel','Seat','Fiat']
+model_car = input('Enter the model of your car ')
+if model_car in cars:
+    print('Wellcom to our club')
+else:
+    print('You can be our member')
+
+# Second model
+
+bici = ('30km/h')
+skate = ('20km/h')
+skate in bici
+print(bool(skate))
+
+# Third model
+l = ('1','2','3','4','5','6','7','8','9')
+
+k = ('-1','-2','-3','-4','-5','-6','-7','-8','-9')
+
+m = input('m from -9 to 9 ')
+if m in l:
+    print('m is positive')
+elif m in k:
+    print('m is negative')
+else:
+    print('m is null')
+
+# 6. Написать 3 примера условия if elif else.
+contry = ('Ukraine','Spain','Moldavia')
+tel_cod = ['+38','+34','+373']
+country = input('Enter your country \n')
+if country == 'Ukraine':
+    print('The phone code of Ukraine is ',tel_cod.index(0))
+elif country == Spain:
+    print('The phone code of Spain is ',tel_cod.index(1))
+elif country == Moldavia:
+    print('The phone cod of Moldavia is ',tel_cod.indexI(2))
+else:
+    print('The phone cod of this country is not found')
