@@ -78,10 +78,10 @@ contry = ('Ukraine','Spain','Moldavia')
 tel_cod = ['+38','+34','+373']
 country = input('Enter your country \n')
 if country == 'Ukraine':
-    print('The phone code of Ukraine is ',tel_cod.index(0))
+    print('The phone code of Ukraine is ',tel_cod[0])
 elif country == Spain:
-    print('The phone code of Spain is ',tel_cod.index(1))
+    print('The phone code of Spain is ',tel_cod[1])
 elif country == Moldavia:
-    print('The phone cod of Moldavia is ',tel_cod.indexI(2))
+    print('The phone cod of Moldavia is ',tel_cod[2])
 else:
     print('The phone cod of this country is not found')
