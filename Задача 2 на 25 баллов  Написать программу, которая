@@ -1,1 +1,18 @@
+print('Hi my dear user')
+info_user = input('Enter please your nickname, your gender and your age by the backspace \n')
+if info_user == admin or info_user == Admin:
+    print('"Привет, повелитель!"')
+elif 14>info_user[2]>=10 and info_user[1] == 'М' or info_user[2]>=30 and info_user[1] == M:
+    print('Советую Вам посмотреть "StarWars" или "Мандалорец"')
+elif 22>info_user[2]<=32 and info_user[1] == 'ж':
+    print()
 
+elif info_user[2]<=16 and info_user[1] == 'Ж':
+    print( 'Советую Вам посмотреть "TMNT"')
+elif info_user[0] == 'Женя':
+    print("Советую Вам посмотреть 'TENET'")
+elif info_user[2]<16 and info_user[1]=='Ж':
+    print('Советую Вам посмотреть "TMNT"')
+elif info_user[0] == GUIDO:
+    print('Огромное спасибо!')
+    
